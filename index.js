@@ -80,9 +80,13 @@ async function createTutorial(tutorial, tutorialsDir, templateDir) {
       writeFile(path.join(dir, "src", file.nameWithExt), file.content)
     ),
     readFile(path.join(dir, "package.json")).then((content) => {
-      // TODO: One of the tutorials uses redux (add to package.json)
       const json = JSON.parse(content);
       json["name"] = tutorial.internalName;
+
+      if (tutorial.internalName === "stores_immutable") {
+        json["dependencies"]["redux"] = "^4.2.1";
+      }
+
       return writeFile(
         path.join(dir, "package.json"),
         JSON.stringify(json, null, 2)
