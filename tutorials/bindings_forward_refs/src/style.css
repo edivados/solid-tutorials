@@ -1,0 +1,5 @@
+canvas {
+  background-color: #666;
+  -webkit-mask: url(https://www.solidjs.com/img/logo/dark-without-wordmark/logo.svg) 50% 50% no-repeat;
+  mask: url(https://www.solidjs.com/img/logo/dark-without-wordmark/logo.svg) 50% 50% no-repeat;
+}

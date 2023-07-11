@@ -1,0 +1,13 @@
+{
+  "name": "solid-tutorials",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "create-vite": "^4.4.0",
+    "fs-extra": "^11.1.1"
+  }
+}
