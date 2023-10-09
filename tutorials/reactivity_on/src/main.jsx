@@ -10,8 +10,8 @@ const App = () => {
   }, { defer: true }));
 
   return <>
-    <button onClick={() => setA(a() + 1)}>Increment A</button>
-    <button onClick={() => setB(b() + 1)}>Increment B</button>
+    <button onClick={() => setA(a => a + 1)}>Increment A</button>
+    <button onClick={() => setB(b => b + 1)}>Increment B</button>
   </>
 };
 
