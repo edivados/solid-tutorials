@@ -34,7 +34,7 @@ const App = () => {
             <input
               type="checkbox"
               checked={todo.completed}
-              onchange={[toggleTodo, id]}
+              onChange={[toggleTodo, id]}
             />
             <span
               style={{ "text-decoration": todo.completed ? "line-through" : "none"}}
