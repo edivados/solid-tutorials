@@ -73,4 +73,4 @@ Your app is ready to be deployed!
 
 ## Deployment
 
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)

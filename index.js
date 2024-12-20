@@ -6,7 +6,7 @@ import path from "node:path";
 const TEMPLATE_DIR = "template";
 const TUTORIALS_DIR = "tutorials";
 const TUTORIALS_URL =
-  "https://raw.githubusercontent.com/solidjs/solid-docs/main/langs/en/tutorials";
+  "https://raw.githubusercontent.com/solidjs/solid-docs-legacy/main/langs/en/tutorials";
 
 function buildStackblitzMarkdown(tutorial) {
   const file = tutorial.solution.files
